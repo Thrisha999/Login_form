@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+    <style>
+    fieldset{
+        background-color: black;
+        color: white;
+        position:relative;
+        left:500px;
+        width:500px;
+        height:500px;
+        font-size: 20px;
+    }
+    #rem-text{
+        position: relative;
+        left:1px;
+        bottom: 1px;
+    }
+    #reg {
+        position: relative;
+        top: 40px;
+    }
+    #login{
+        position: relative;
+        left:200px;
+        Top:30px;
+        margin-bottom: 10px;
+        width:80px;
+        height:40px;
+        border: 2px solid red;
+        border-radius: 5px;
+    }
+    #info{
+        margin-left: 20px;
+    }
+    #pass{
+        margin-bottom: 20px;
+        padding: 13px;
+    }
+    #uname{
+        margin-bottom: 20px;
+        padding: 13px;
+    }
+    a{
+        color:orange;
+    }
+
+    #content {
+        background-color: aqua;
+        width: 700px;
+    }
+
+    #hello {
+        display: inline-block;
+    }
+
+    #hi {
+        display: inline-block;
+        margin-left: 195px;
+    }
+
+    #bye {
+        display: inline-block;
+    }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <form action="#">
+            <h1 align="center">Login Form</h1>
+            <div id="info">
+            <div>
+                <p>username</p>
+            <input type="text" placeholder="Username" id="uname">
+            </div>
+
+            <div>
+                <p>Password</p>
+            <input type="password" placeholder="password" id="pass">
+            </div>
+
+            <input type="checkbox" id="remember">
+            <span id="rem-text">Remember me</span><br>
+
+            <button id="login">Login</button>
+
+            <div id="reg">
+                <span>Don't have an account?</span>
+                <a href="registration_form.html" target="_blank">Register User</a>
+            </div>
+            </div>
+        </form>
+    </fieldset>
+
+    <br><br><br><br><br>
+    <div id="content">
+    <div id="hello">
+        <p>Hello</p>
+        <input type="text">
+    </div>
+    <div id="hi">
+        <p>Hi</p>
+        <input type="text">
+    </div>
+    <div id="bye">
+        <p>Bye</p>
+        <input type="text">
+    </div>
+</div>
+</body>
+</html>
